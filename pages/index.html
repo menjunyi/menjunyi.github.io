@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="index.css">
+    <script src="../2.1.3_jquery.js"></script>
+    <script>
+        $(function () {
+            const includes = $('[data-include]');
+            $.each(includes, function () {
+                const file = '../layouts/' + $(this).data('include') + '.html';
+                $(this).load(file)
+            })
+        })
+    </script>
+</head>
+<body>
+<!--data-include value must match the name of [nav ul li] class list-->
+<div data-include="navbar"></div>
+<div data-include="hero-section"></div>
+<div data-include="services"></div>
+<div data-include="team"></div>
+<div data-include="feedback-section"></div>
+<div data-include="footer"></div>
+</body>
+</html>

@@ -1,0 +1,155 @@
+footer {
+    border-top: 1px solid #2e2e2e !important;
+    color: #fbf8eb;
+    padding-top: 60px;
+    padding-bottom: 20px;
+    background-color: black;
+    width: 100%;
+}
+
+footer .web_logo_wrap {
+    display: inline-block;
+    overflow: hidden;
+}
+
+footer .web_logo_wrap svg path,footer .web_logo_wrap svg rect {
+    fill: #fbf8eb !important;
+}
+
+footer .top {
+    display: -webkit-box;
+    display: -moz-box;
+    display: box;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+footer .left {
+    width: 30%;
+}
+
+footer .right {
+    width: 60%;
+    margin-left: 8%;
+}
+
+footer .title {
+    width: 335px;
+    font-size: 26px;
+    line-height: 36px;
+}
+
+footer .title *:first-child {
+    margin-top: 20px;
+}
+
+footer .subtitle {
+    opacity: .5;
+    margin-bottom: 30px;
+}
+
+footer .bottom {
+    display: -webkit-box;
+    display: -moz-box;
+    display: box;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 42px;
+}
+
+footer .bottom .left {
+    margin-top: 32px;
+}
+
+footer .text-wrap {
+    margin-bottom: 21px;
+    font-size: 1rem;
+}
+
+footer .footer_menu ul {
+    padding-left: 0;
+    list-style-type: none;
+    display: -webkit-box;
+    display: -moz-box;
+    display: box;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: calc(100% + 15px);
+    margin: 0 -15px;
+}
+
+footer .footer_menu ul li {
+    margin: 0 15px;
+}
+
+footer .footer_menu_2 {
+    width: 300px;
+}
+
+footer .footer_menu_2 ul {
+    padding-left: 0;
+    list-style-type: none;
+    display: -webkit-box;
+    display: -moz-box;
+    display: box;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: calc(100% + 15px);
+    margin: 0 -15px;
+}
+
+footer .footer_menu_2 ul li {
+    margin: 0 15px;
+}
+
+footer .address {
+    opacity: .5;
+}
+
+footer .address_top {
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.2;
+    opacity: 1;
+    margin: 0 0 5px;
+}
+
+footer .copyright {
+    margin-top: 36px;
+    display: -webkit-box;
+    display: -moz-box;
+    display: box;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 13px;
+    line-height: 18px;
+}
+footer .copyright_text{
+    font-size: 13px;
+    text-align: left;
+    opacity: .5;
+}
+
+footer .socials {
+    font-size: 23px;
+    width: calc(100% + 28px);
+    margin: 0 -14px;
+}
+
+footer .social_icon {
+    margin: 0 14px;
+}
+
+footer .social_icon img {
+    height: 20px;
+}
+
+footer svg {
+    fill: #fbf8eb;
+}
+

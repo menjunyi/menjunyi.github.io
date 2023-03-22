@@ -1,0 +1,93 @@
+#team{
+    background-color: var(--black-2);
+}
+.float-left {
+    float: left;
+}
+.float-right {
+    float: right;
+    margin: 0 2em;
+}
+.team_wrapper .our_goals_wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    float: right;
+}
+
+.team_title{
+    font-size: 3rem;
+    font-weight: 400;
+    color: var(--white-1);
+    margin-bottom: 1rem;
+}
+
+.team_title span{
+    color: var(--primary-color);
+}
+
+.team_subtitle{
+    font-size: 1rem;
+    font-weight: 200;
+    color: var(--white-1);
+    margin-bottom: 2rem;
+}
+.team_text{
+    font-size: 1rem;
+    line-height: 1.4em;
+    font-weight: 200;
+    color: var(--white-1);
+    margin-bottom: 1rem;
+    opacity: 0.7;
+}
+
+/*our goals styles*/
+.our_goals_info{
+    text-aligh: left;
+    margin-bottom:5rem;
+    width: 35%;
+}
+
+.our_goals_title{
+    font-size: 2rem;
+    font-weight: 500;
+    color: var(--white-1);
+    margin-bottom: 1rem;
+}
+
+.our_goals_subtitle{
+    font-size: 1rem;
+    font-weight: 200;
+    color: var(--white-1);
+    margin-bottom: 2rem;
+    opacity: 0.7;
+}
+
+.our_goals_text{
+    font-size: 1.4rem;
+    line-height: 1.4em;
+    color: var(--white-1);
+    margin-bottom: 1rem;
+
+}
+
+.our_goals_imgs_wrapper img{
+    object-fit: cover;
+
+}
+
+.our_goals_imgs_wrapper {
+    width: 55%;
+    max-width: 800px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 1rem
+}
+
+
+
+.our_goals_img1{
+    grid-row: 1/3;
+}

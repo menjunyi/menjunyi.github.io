@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../layouts/feedback-section.css">
+    <link rel="stylesheet" href="../style.css">
+
+</head>
+<body>
+<section id="feedback-section">
+    <div class="container">
+        <div class="wrapper">
+<!--            left part-->
+            <div class="left">
+                <h2 class="contact-heading">CONTACT <span>US</span></h2>
+                <p class="contact-desc">What do you need to help with?</p>
+                <div class="contact-info">
+                    <ul>
+                        <li><a href="mailto:junyimen@gmail.com">
+                            <span class="icon"> <svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><title>Mail</title><rect x="48" y="96" width="416" height="320" rx="40" ry="40" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"/><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" d="M112 160l144 112 144-112"/></svg> </span>
+                            <span class="text">junyimen@gmail.com</span>
+                        </a> </li>
+                        <li><a href="tel:0480 34 89 07">
+                            <span class="icon"> <svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><title>Call</title><path d="M451 374c-15.88-16-54.34-39.35-73-48.76-24.3-12.24-26.3-13.24-45.4.95-12.74 9.47-21.21 17.93-36.12 14.75s-47.31-21.11-75.68-49.39-47.34-61.62-50.53-76.48 5.41-23.23 14.79-36c13.22-18 12.22-21 .92-45.3-8.81-18.9-32.84-57-48.9-72.8C119.9 44 119.9 47 108.83 51.6A160.15 160.15 0 0083 65.37C67 76 58.12 84.83 51.91 98.1s-9 44.38 23.07 102.64 54.57 88.05 101.14 134.49S258.5 406.64 310.85 436c64.76 36.27 89.6 29.2 102.91 23s22.18-15 32.83-31a159.09 159.09 0 0013.8-25.8C465 391.17 468 391.17 451 374z" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32"/></svg> </span>
+                            <span class="text">+61 0480348907</span>
+                        </a> </li>
+                    </ul>
+                </div>
+            </div>
+            <!--right part-->
+            <div class="right">
+                <div class="contact-form">
+                    <form method="post" id='fr1'>
+                        <div class="form-group">
+                            <div class="input-wrapper">
+                                <label for="name">NAME:</label>
+<!--                                <span class="icon"> <svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><title>Person</title><path d="M344 144c-3.92 52.87-44 96-88 96s-84.15-43.12-88-96c-4-55 35-96 88-96s92 42 88 96z" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"/><path d="M256 304c-87 0-175.3 48-191.64 138.6C62.39 453.52 68.57 464 80 464h352c11.44 0 17.62-10.48 15.65-21.4C431.3 352 343 304 256 304z" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32"/></svg> </span>-->
+                                <input type="text" id="name" name="name">
+                            </div>
+                        <div class="form-group">
+                            <div class="input-wrapper">
+                                <label for="email">EMAIL:</label>
+<!--                                <span class="icon"> <svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><title>Mail</title><rect x="48" y="96" width="416" height="320" rx="40" ry="40" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"/><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" d="M112 160l144 112 144-112"/></svg> </span>-->
+                                <input type="text" id="email" name="email">
+                            </div>
+                        </div>
+                        <label>GENDER:</label>
+                        <div class="radio">
+                            <input class=' radio_input' type="radio" id="male" name="fav_language" value="male">
+                            <label class='radio_label' for="male">Male</label>
+                            <input class=' radio_input'  type="radio" id="female" name="fav_language" value="female">
+                            <label class='radio_label'  for="female">Female</label>
+                            <input class=' radio_input' type="radio" id="other" name="fav_language" value="other">
+                            <label class='radio_label'  for="other">Other</label>
+                            <input class=' radio_input' type="radio" id="non" name="fav_language" value="non">
+                            <label class='radio_label'  for="non">Prefer Not to Say.</label>
+                        </div>
+                        <div class="form-group">
+                            <label for="feedback">Please fill your feedback below:</label>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="feedback" name="feedback" rows="4" cols="50"></textarea>
+                        </div>
+                        <button type="submit">SUBMIT</button>
+                        <button type="reset">CLEAR</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+</section>
+
+
+</body>
+</html>
