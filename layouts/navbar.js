@@ -1,4 +1,3 @@
-
 const sections = document.querySelectorAll('[data-include]')
 const navLi = document.querySelectorAll('nav ul li')
 window.addEventListener('scroll', () => {
@@ -10,7 +9,6 @@ window.addEventListener('scroll', () => {
             current = section.getAttribute('data-include');
         }
     })
-
     navLi.forEach(li => {
         li.classList.remove('active');
         if(li.classList.contains(current)){

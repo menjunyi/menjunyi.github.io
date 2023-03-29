@@ -26,9 +26,6 @@
     padding: 0 20px;
 }
 
-.active a {
-    color: var(--primary-color);
-}
 .header button{
     font-size: 16px;
     font-weight: 500;
@@ -42,6 +39,15 @@
     border-radius: 50px;
     /*space of border*/
     padding: 9px 25px
+}
+
+/* Hover part will be active*/
+.active{
+    color: var(--primary-color);
+}
+
+.active a {
+    color: var(--primary-color);
 }
 
 .header nav li a:hover{
@@ -68,7 +74,6 @@
     opacity: 1;
     -webkit-transition: .3s;
     transition: .3s;
-    -webkit-transform: translateX(0);
     transform: translateX(0);
 }
 
@@ -81,24 +86,13 @@
 .header-menu-wrap {
     display: -webkit-box;
     display: -moz-box;
-    display: box;
     display: -moz-flex;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
     box-pack: justify;
-    -moz-justify-content: space-between;
-    -ms-justify-content: space-between;
-    -o-justify-content: space-between;
     justify-content: space-between;
-    -ms-flex-pack: justify;
-    -webkit-box-align: start;
     box-align: start;
-    -moz-align-items: flex-start;
-    -ms-align-items: flex-start;
-    -o-align-items: flex-start;
     align-items: flex-start;
-    -ms-flex-align: start;
 }
 
 
@@ -109,8 +103,4 @@
     width: 100%;
     transition: 0.5s;
 }
-
-/*.sticky + .content{*/
-/*    padding-top: 80px;*/
-/*}*/
 

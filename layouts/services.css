@@ -29,18 +29,6 @@
 }
 
 
-
-/*.service-item::after{*/
-/*    content: '';*/
-/*    left: 0;*/
-/*    top: 0;*/
-/*    height: 100%;*/
-/*    width: 100%;*/
-/*    background-color: var(--black-2);*/
-/*    opacity: .5;*/
-/*    z-index: -1;*/
-/*}*/
-
 .service-bottom{
     margin: 1.5%;
     display: flex;
@@ -72,7 +60,6 @@
     font-size: 1.5rem;
     color: var(--white-1);
     margin-bottom: 10px;
-    text-transform: uppercase;
 }
 .service-item p{
     color: var(--white-1);
